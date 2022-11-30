@@ -18,7 +18,7 @@
     font-family: 'Roboto-Light-Italic';
     src: url(./Roboto/Roboto-LightItalic.ttf) format('truetype');
 }
-.section-one, footer {
+.description, .img-one,  footer {
     background-color: #1F2937;
     margin: -8px -8px;
 }
@@ -28,7 +28,7 @@ header{
     padding: 4px 120px 50px 120px ;
     flex-wrap: wrap;
 }
-header .header-links{
+menu .li{
     font-family:'Roboto-Light', sans-serif;
     font-size: 18px;
     color: #E5E7EB;
