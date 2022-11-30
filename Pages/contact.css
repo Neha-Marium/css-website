@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url(../Roboto/Roboto-Light.ttf) format('truetype');
+}
+@font-face{
+    font-family: 'Roboto-Bold';
+    src: url(../Roboto/Roboto-Bold.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(../Roboto/Roboto-Regular.ttf) format('truetype');
+}
+.section-one{
+    height: 100px;
+    background-color: #1F2937;
+    margin: -8px -8px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 120px 50px 120px ;
+    flex-wrap: wrap;
+}
+header .header-links{
+    font-family:'Roboto-Light', sans-serif;
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    flex: 1 1 1;
+}
+a{
+    color: #E5E7EB;
+}
+a:hover {
+    color: blue;
+}
+.logo p{
+    font-family: 'Roboto-Bold', sans-serif;
+    font-size: 24px;
+    color: #F9FAF8;
+    float: right;
+    margin-top: 24px;
+    margin-left: 10px;
+}
+h2{
+    font-family: 'Roboto-Bold', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+}
+.contact-info h3{
+    font-family: 'Roboto-Bold', sans-serif;
+    font-size: 24px;
+    color: white;
+}
+.contact-info p{
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+.contact-section{
+    margin: 40px 40px 0;
+}
+.contact-section p, .address-section p{
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 18px;
+}
+.contact-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+}
+.admissions, .academic, .student-affairs, .human-resource{
+    background-color: #3882F6;
+    border-radius: 6px;
+    width: 23%;
+}
+.address-section{
+    background-color: #E5E7EB;
+    height: 250px;
+    margin-top: 60px;
+    text-align: center;
+    padding: 20px 0;
+}
+.address-section .black{
+    font-family: 'Roboto-Bold', sans-serif;
+    font-size: 24px;
+}
+footer{
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: small;
+    text-align: center;
+    height: 52px;
+    margin: 30px -8px 0;
+    padding-top: 50px;
+    color: #E5E7EB;
+    background-color: #1F2937;
+}
