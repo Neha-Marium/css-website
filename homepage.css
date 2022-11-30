@@ -18,54 +18,76 @@
     font-family: 'Roboto-Light-Italic';
     src: url(./Roboto/Roboto-LightItalic.ttf) format('truetype');
 }
-.description, .img-one,  footer {
-    background-color: #1F2937;
+header, .description, footer{
     margin: -8px -8px;
 }
 header{
     display: flex;
     justify-content: space-between;
-    padding: 4px 120px 50px 120px ;
-    flex-wrap: wrap;
+    background-color: #1F2937;
+    padding: 20px 150px 30px 150px;
 }
-menu .li{
-    font-family:'Roboto-Light', sans-serif;
-    font-size: 18px;
-    color: #E5E7EB;
+ul {
+    list-style-type: none;
     display: flex;
-    flex-direction: row;
+}
+.link{
+    padding-right: 20px;
+}
+.navbar-links{
+    font-family:'Roboto-Light', sans-serif;
+    display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
     width: 300px;
     height: 50px;
-    flex: 1 1 1;
+    flex-direction: row;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 a{
-    color:#E5E7EB;
+    color: #E5E7EB;
 }
-a:hover {
+a:hover{
     color: blue;
 }
-.logo p{
+.logo{ 
     font-family: 'Roboto-Bold', sans-serif;
     font-size: 24px;
     color: #F9FAF8;
     float: right;
     margin-top: 24px;
-    margin-left: 10px;
+    margin-left: -220px;
 }
 .description{
-    padding: 0px 120px 120px 120px;
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #e5e7eb;
+    border: 0;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    padding: 50px 150px 90px 150px;
 }
-.description h1{
+.left{
+    width: 250px;
+    text-align: left;
+    flex-grow: 1;
+    padding-right: 30px;
+}
+.left h1{
     font-family: 'Roboto-Bold', sans-serif;
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
     margin-bottom: -5px;
 }
-.description p, .section-four p{
+.left p{
+    font-family:'Roboto-Thin', sans-serif;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.section-four p{
     font-family:'Roboto-Thin', sans-serif;
     font-size: 18px;
     color: #E5E7EB;
@@ -166,4 +188,5 @@ footer{
     margin-top: 80px;
     padding-top: 50px;
     color: #E5E7EB;
+    background-color: #1F2937;
 }
